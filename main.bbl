@@ -1,0 +1,141 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{8}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Asai, Hashimoto, Hajishirzi, Socher, and
+  Xiong}{Asai et~al\mbox{.}}{2020}]%
+        {asai2019learning}
+\bibfield{author}{\bibinfo{person}{Akari Asai}, \bibinfo{person}{Kazuma
+  Hashimoto}, \bibinfo{person}{Hannaneh Hajishirzi}, \bibinfo{person}{Richard
+  Socher}, {and} \bibinfo{person}{Caiming Xiong}.} \bibinfo{year}{ICLR
+  2020}\natexlab{}.
+\newblock \showarticletitle{Learning to retrieve reasoning paths over wikipedia
+  graph for question answering}.
+\newblock  (\bibinfo{year}{ICLR 2020}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Clark and Gardner}{Clark and Gardner}{2018}]%
+        {2018Simple}
+\bibfield{author}{\bibinfo{person}{C. Clark} {and} \bibinfo{person}{M.
+  Gardner}.} \bibinfo{year}{ACL 2018}\natexlab{}.
+\newblock \showarticletitle{Simple and Effective Multi-Paragraph Reading
+  Comprehension}.
+\newblock  (\bibinfo{year}{ACL 2018}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Min, Chen, Zettlemoyer, and Hajishirzi}{Min
+  et~al\mbox{.}}{2019}]%
+        {min2019knowledge}
+\bibfield{author}{\bibinfo{person}{Sewon Min}, \bibinfo{person}{Danqi Chen},
+  \bibinfo{person}{Luke Zettlemoyer}, {and} \bibinfo{person}{Hannaneh
+  Hajishirzi}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Knowledge guided text retrieval and reading for
+  open domain question answering}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1911.03868}}
+  (\bibinfo{year}{2019}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Sun, Bedrax-Weiss, and Cohen}{Sun
+  et~al\mbox{.}}{2019}]%
+        {sun2019pullnet}
+\bibfield{author}{\bibinfo{person}{Haitian Sun}, \bibinfo{person}{Tania
+  Bedrax-Weiss}, {and} \bibinfo{person}{William~W Cohen}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Pullnet: Open domain question answering with
+  iterative retrieval on knowledge bases and text}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2019 Conference on Empirical
+  Methods in Natural Language Processing and the 9th International Joint
+  Conference on Natural Language Processing, pages 2380–2390,7}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Sun, Dhingra, Zaheer, Mazaitis, Salakhutdinov,
+  and Cohen}{Sun et~al\mbox{.}}{2018}]%
+        {sun2018open}
+\bibfield{author}{\bibinfo{person}{Haitian Sun}, \bibinfo{person}{Bhuwan
+  Dhingra}, \bibinfo{person}{Manzil Zaheer}, \bibinfo{person}{Kathryn
+  Mazaitis}, \bibinfo{person}{Ruslan Salakhutdinov}, {and}
+  \bibinfo{person}{William~W Cohen}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Open domain question answering using early fusion
+  of knowledge bases and text}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  2018 Conference on Empirical Methods in Natural Language Processing, pages
+  4231–4242}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Vashishth, Sanyal, Nitin, and
+  Talukdar}{Vashishth et~al\mbox{.}}{2020}]%
+        {2020Composition}
+\bibfield{author}{\bibinfo{person}{S. Vashishth}, \bibinfo{person}{S. Sanyal},
+  \bibinfo{person}{V. Nitin}, {and} \bibinfo{person}{P. Talukdar}.}
+  \bibinfo{year}{ICLR 2020}\natexlab{}.
+\newblock \showarticletitle{Composition-based Multi-Relational Graph
+  Convolutional Networks}.
+\newblock  (\bibinfo{year}{ICLR 2020}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wang, Ng, Ma, Nallapati, and Xiang}{Wang
+  et~al\mbox{.}}{2019}]%
+        {2019Multi}
+\bibfield{author}{\bibinfo{person}{Z. Wang}, \bibinfo{person}{P. Ng},
+  \bibinfo{person}{X. Ma}, \bibinfo{person}{R. Nallapati}, {and}
+  \bibinfo{person}{B. Xiang}.} \bibinfo{year}{EMNLP 2019}\natexlab{}.
+\newblock \showarticletitle{Multi-passage BERT: A Globally Normalized BERT
+  Model for Open-domain Question Answering}.
+\newblock  (\bibinfo{year}{EMNLP 2019}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Xiong, Yu, Chang, Guo, and Wang}{Xiong
+  et~al\mbox{.}}{2019}]%
+        {xiong2019improving}
+\bibfield{author}{\bibinfo{person}{Wenhan Xiong}, \bibinfo{person}{Mo Yu},
+  \bibinfo{person}{Shiyu Chang}, \bibinfo{person}{Xiaoxiao Guo}, {and}
+  \bibinfo{person}{William~Yang Wang}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Improving question answering over incomplete kbs
+  with knowledge-aware reader}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1905.07098}}
+  (\bibinfo{year}{2019}).
+\newblock
+
+
+\end{thebibliography}
