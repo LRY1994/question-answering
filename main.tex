@@ -54,10 +54,10 @@
 			\item {Dataset}:(question, answer) pair.
 			
 			\item{ Knowledge Base}:(entity, relation, entity) triple.
-			 Knowledge Base is a multi-relational graphs, each edge has a label and direction associated with it. every node in the graph is an entity.
+			 Knowledge Base is a multi-relational graphs, each edge has a label and direction associated with it. Each node in the graph is an entity.
 			 
 			 \item{ Wikipedia graph\cite{asai2019learning}}:(text, text) pair.
-			 Wikipedia graph is constructed by Hyperlinks and within-document links, every node in the graph is an article.
+			 Wikipedia graph is constructed by Hyperlinks and within-document links, Each node in the graph is an article.
 				
 		\end{itemize}
 		
@@ -147,6 +147,14 @@
 	   
 	   	
 	   	In \cite{2020Composition},it handles multi-relational graphs  representation where each edge has a label and direction associated with it, and jointly embeds both nodes and relations in a relational graph.
+	   	
+	   	\begin{figure*}[ht]		
+	   		\centering
+	   		\includegraphics[scale=0.5]{model.jpg}
+	   		\caption{A diagram of approach}
+	   		\label{fig:label}
+	   	\end{figure*}
+	   	
    	
    	\item the representaion of question
    	
@@ -171,14 +179,9 @@
 	   	 		&\alpha_{r_i} = sorce( h_{a},e_{ai},r_i,q)    	 		
 	   	 	\end{aligned}
 	   	 \end{displaymath}
-	    
-   	
-   	
-   	
-   	
-   	
+	     	
    \end{enumerate} 
-   	
+
 
 	
 	%%
