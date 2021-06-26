@@ -109,9 +109,7 @@
 
 	
 	\item answer extraction
-	
-	We adopt Multi-passage BERT \cite{2019Multi} as our reader model,which use Shared normalization\cite{2018Simple}, specifically to process passages independently, but compute the span probability across spans in all passages in every mini-batch.Globally normalizing answer scores across all passages of the same question enables to find better answers by utilizing more passages.
-	
+		
 	Denote the passage score as $Pr(P_i|Q, P)$,which reranks all retrieved passages
 		\begin{displaymath}
 			Pr(P_i|Q, P) = softmax(h_i^\mathrm{ T }  W)
@@ -129,7 +127,7 @@
 		
 	\end{enumerate} 
    
-   	\textbf{Some details remain specific}
+   	\textbf{Some details remains to be determined}
    	
    	\begin{enumerate}[(1)]
    		
