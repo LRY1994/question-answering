@@ -54,10 +54,10 @@
 			\item {Dataset}:(question, answer) pair.
 			
 			\item{ Knowledge Base}:(entity, relation, entity) triple.
-			 Knowledge Base is a multi-relational graphs, each edge has a label and direction associated with it. Each node in the graph is an entity.
+			 Knowledge Base is a multi-relational graphs, each edge has a label and direction associated with it, and each node in the graph is an entity.
 			 
-			 \item{ Wikipedia graph\cite{asai2019learning}}:(text, text) pair.
-			 Wikipedia graph is constructed by Hyperlinks and within-document links, Each node in the graph is an article.
+			 \item{ Wikipedia graph\cite{asai2019learning}}:(passage, passage) pair.
+			 Wikipedia graph is constructed by hyperlinks and within-document links,the edge is direct ,and  each node in the graph is an article.The Wikipedia graph is densely connected and covers a wide range of topics that provide useful evidence for open-domain questions
 				
 		\end{itemize}
 		
@@ -70,14 +70,14 @@
 	
 	\textbf{Method} 
 	Fuse Knowledge Base knowledge into Wikipedia graph to formulate
-	($\MakeUppercase{p}_{a}$, relation, $\MakeUppercase{p}_{b}$) triple.
+	(passage, relation, passage) triple.
 	\begin{enumerate}[(1)]
+		\item get the seed passage by a TF-IDF based retrieval system.Around the seed passage,take the neighbouring passage from Wikipedia graph,$(P_1,...,P_N)$
 		
-		\item identify the relations between two passage node
+		\item identify the relations between each two passage node
 		
-		Assuming that :
-		
-		
+		assuming that :
+				
 		$rSet_{(a,b)}$ : the set of relation between $\MakeUppercase{p}_a$ and $\MakeUppercase{p}_b$, initialized empty
 		
 		($\MakeUppercase{p}_a$, 	$\MakeUppercase{p}_b$) exits in Wikipedia graph.
@@ -90,22 +90,16 @@
 		
 		If $(e_{ai}, r, e_{bj})$(1<=i,j<=n) exits in Knowledge Base, add r into $rSet_{(a,b)}$ . Finally, $rSet_{a,b} = (r_{1}...,r_{k}) $
 		
-		\item corperate identified relations into passage node embedding
+		\item corperate identified relations into passage node embedding.	Suppose that  $h_{b}$ is link by  $[h_{a1},...,h_{at}]$ ,then update $h_{b}$ by 
 		\begin{displaymath}
 			\begin{aligned}
-			\alpha_{r_i} = sorce( h_{a},e_{ai},r_i,q) \\
-			h_{inter-b}= FNN (h_{a}, \sum_{i=1}^{k} \alpha_{r_i}*ri)
+			&\alpha_{r_i} = sorce( h_{a_i},e_{ai},r_i,q) \\		
+			&h_{b}= GCN(h_{b}, \sum_{1}^{t}FNN (h_{a_i}, \sum_{i=1}^{k} \alpha_{r_i}*ri))
 			\end{aligned}
 		\end{displaymath}
-		$h_{inter-b}$ is the intermediate representation of passage b.
+		
 		$\alpha_{r_i}$ is the relation score.
 	
-		Suppose that  $h_{b}$ is link by  $[h_{a1},...,h_{at}]$ ,then update $h_{b}$ by 
-		\begin{displaymath}
-			\begin{aligned}
-				h_{b}= GCN(h_{b}, \sum_{1}^{t} h_{inter-b})
-			\end{aligned}
-		\end{displaymath}
 
 	
 	\item answer extraction
@@ -148,7 +142,7 @@
 	   	
 	   	\begin{figure*}[ht]		
 	   		\centering
-	   		\includegraphics[scale=0.5]{model.jpg}
+	   		\includegraphics[scale=0.5]{f1.jpg}
 	   		\caption{A diagram of approach}
 	   		\label{fig:label}
 	   	\end{figure*}
