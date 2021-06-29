@@ -48,6 +48,29 @@
 	\maketitle
 	
 	\section{Introduction}
+		Open-domain  Question Answering mostly focus on factoid question answering,which require systems to return a short and concise answer to these questions.
+		Most existing models, however,answer questions using a single information
+		source, usually either text from an text corpus such as Wikipedia\cite{chen2017reading},or a single knowledge base (KB).	
+		
+		Large-scale factual knowledge bases such as WikiData and Freebase\cite{bollacker2008freebase}, stores a large number of facts in an organized way. Namely, Freebase has 46m entities and 2.6b facts, WikiData contains 87m items .Each fact is made of two entities and a relation between them. Most konwledge bases are curated,ensureing the correctness of the information,common or "simple" questions can be answered easily if semantic parsing (question query)  is done correctly.The advantage of graph structure also enables multi-hop question answering.
+		Unfortunately, curated konwledge bases, which demands tremendous hunman labor,might not keep up with times,thereby some relations would be missing.Limited coverage of questions  can be answered because the resoning is based on the similarity over relationships and entities.	
+		
+		Wikipedia\cite{chen2017reading}, a text source, was proposed for the first time to process Open Domain QA tasks, and a DRQA system was developed, including Document Retriever and Document Reader, which laid the pipe-line, two-stage approaches, of QA for successive work.We also follow this tradition ,retrieve and then read. 		
+		Text corpus provides a more completed coverage of facts,and it is easy to catch the time,however lacks the ability of multi-hop resoning.
+		
+		To combine the coverage of text evidence and reasoning ability of knowledge base, some recent work  use both text and KB,to constructs graphs of nodes and edges\cite{sun2018open,sun2019pullnet,xiong2019improving}.These works basically augment the KB graph with the entities indentified from the relevent text evidences,the task of answer determination is then reduced to classfiy the entity node is the answer or not.
+		Another line\cite{min2019knowledge} ,inversely,augment retrieval passage with KB graph, and the task of answer determination is to do answer extraction from text.
+		
+	\section{Related work}
+	\subsection{QA using Text}
+	
+	\subsection{QA using KB}
+	\subsection{QA using both Text and KB}
+	In {\itshape GRAFT-Net}\cite{sun2018open} , {\itshape PullNet}\cite{sun2019pullnet},and{ \itshape Knowledge-Aware}\cite{xiong2019improving},the  answers is restricted to be the KB entities. Meanwhile, their question subgraph is heterogeneous, which contains   KB triples(entity,relation,entity), and entity-linked text. The task of QA then reduces to learning the representations of the nodes, and then performing a binary classification over these nodes to decide whether it is the answer or not. They both augmented knowledge bases with text from Wikipedia, which means KB dominates the whole process.
+	
+	However,{\itshape Knowledge guided}\cite{min2019knowledge} construct the graph in a different way.  Inversely, the knowledge base is used to better model relationships between different passages of text, which means the text corpus dominates instead. Its question subgraph is not heterogeneous, only contains entity-linked passage and relations. The task of QA  switches to learning the representations of the passage . Not to classify the node is the answer or not, it extracts the most possible span as answer in the most possible passage as prior work did.Our work is consistent with it.
+	
+	\section{Method}
 	
 	\textbf{Input}
 		\begin{itemize}
