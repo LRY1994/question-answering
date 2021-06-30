@@ -113,8 +113,8 @@
 		\begin{enumerate}[(1)]
 		\item Corperate entity relations into passage .\\	
 			We update passage representaion at token level.	
-			If the triple $(e_{ai},r,e_{bj}) \in \mathcal{K}$, and $e_{ai}$ is at the position $pos_a$ in $p_a$, $e_{bj}$ is at  $pos_b$  in $p_b$.		
-			Let $L=(p_a,pos_a)$ be the set of all the entities appearing at position $pos_a$ in paragrah $p_a$,they are all linked to the entities at position $pos_b$ in paragrah $p_b$.First, we aggregate over the token hidden states coming in at
+			If the triple $(e_{ai},r,e_{bj}) \in \mathcal{K}$, and $e_{ai}$ is at the position $pos_a$ in $p_a$, $e_{bj}$ is at  $pos_b$  in $p_b$,		
+			let $L=(p_a,pos_a)$ be the set of all the entities appearing at position $pos_a$ in paragrah $p_a$,they are all linked to the entities at position $pos_b$ in paragrah $p_b$.We aggregate over the token hidden states coming in at
 			each position separately: 
 			
 			\begin{displaymath}
@@ -147,16 +147,16 @@
 		Next we aggregate states within the paragraph using BERT again:
 		\begin{displaymath}
 			\begin{aligned}
-				h_{p}^{(l)} = BERT(h_p^{(l)}[1],...,h_p^{(l)}[pos])
+				h_{p}^{(l)} = BERT(h_p^{(l)}[1],...,h_p^{(l)}[|p|])
 			\end{aligned}
 		\end{displaymath}
 	
 	    \item Update topic entities representation\\
 	    We have $E_{topic}=\left\{e_1,...,e_{|topic|}\right\}$ from above step. 
-	    Let $L = \left(e,p,pos\right)$ denotes the topic entity $e$ appear at the position $pos$ in passage p,we update the topic entity representation by aggregate the information from the updated passages.
+	    Let $Q = \left(e,p,pos\right)$ denotes the topic entity $e$ appear at the position $pos$ in passage p,we update the topic entity representation by aggregate the information from the updated passages.
 	    \begin{displaymath}
 	    	\begin{aligned}
-	    		h^{(l)}_{e} = \sum h_p^{(l)}[pos]
+	    		h^{(l)}_{e} = \frac{1}{|Q|}\sum\limits_{(e,p,pos) \in Q} h_p^{(l)}[pos]
     		\end{aligned}
    		\end{displaymath}
    	
