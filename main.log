@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.11.23)  27 JUN 2021 23:10
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.11.23)  30 JUN 2021 23:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1747,112 +1747,102 @@ Requested font "ntxexa" at 8.0pt
 Requested font "ntxexa" at 6.2pt
  -> d:/Software/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 
-Overfull \hbox (24.17653pt too wide) in paragraph at lines 55--57
+Overfull \hbox (12.80653pt too wide) in paragraph at lines 55--57
 []\TU/LinLibertine(0)/m/n/9 Large-scale factual knowledge bases such as WikiDat
-a and Freebase[[]],
+a[[]],Freebase
  []
 
 
-Overfull \hbox (16.59152pt too wide) in paragraph at lines 55--57
-\TU/LinLibertine(0)/m/n/9 bases are curated,ensureing the correctness of the in
-formation,common
+Overfull \hbox (5.28752pt too wide) in paragraph at lines 55--57
+\TU/LinLibertine(0)/m/n/9 question answering. Unfortunately, curated konwledge 
+bases, which
  []
 
 
-Overfull \hbox (12.24829pt too wide) in paragraph at lines 58--60
+Overfull \hbox (1.04329pt too wide) in paragraph at lines 58--60
 \TU/LinLibertine(0)/m/n/9 laid the pipe-line, two-stage approaches, of QA for s
-uccessive work.We
+uccessive work. 
+ []
+
+
+Overfull \hbox (10.65901pt too wide) in paragraph at lines 74--79
+\TU/LinLibertine(0)/m/n/9 ment between the two resources. Knowledge Base is a m
+ulti-relational
+ []
+
+
+Overfull \hbox (1.74452pt too wide) in paragraph at lines 74--79
+\TU/LinLibertine(0)/m/n/9 rected graph,constructed by hyperlinks and within-doc
+ument links,
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1.1
+
+]
+Overfull \hbox (5.34552pt too wide) in paragraph at lines 82--85
+[]\TU/LinLibertine(0)/b/n/9 Subgraph \TU/LinLibertine(0)/m/n/9 Next,we run Topi
+c-sensitive pagerank[[]] around these
  []
 
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 69.
+(Font)              scaled to size 9.0pt on input line 96.
 Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;
 mapping=tex-text;" at 9.0pt
  -> d:/Software/texlive/2020/texmf-dist/fonts/opentype/public/libertine/LinLibe
 rtine_RI.otf
 
-Overfull \hbox (20.38351pt too wide) in paragraph at lines 69--70
-\TU/LinLibertine(0)/m/n/9 graph is heterogeneous, which contains KB triples(ent
-ity,relation,entity),
+Overfull \hbox (1.79579pt too wide) in paragraph at lines 109--113
+[]\TU/LinLibertine(0)/b/n/9 Node Update \TU/LinLibertine(0)/m/n/9 Assuming that
+ $\LMS/ntxsy/m/n/9 ¹\OML/nxlmi/m/it/9 p[]; p[]\LMS/ntxsy/m/n/9 º 2 G[]$\TU/LinL
+ibertine(0)/m/n/9 , and the edge weight
  []
 
 
-Overfull \hbox (2.61876pt too wide) in paragraph at lines 82--84
-[]\TU/LinLibertine(0)/m/n/9 Wikipedia graph[[]]:(passage, passage) pair. Wikipe
-dia graph
+Overfull \hbox (25.6853pt too wide) detected at line 133
+[][]
  []
 
 
-Overfull \hbox (1.92052pt too wide) in paragraph at lines 82--84
-\TU/LinLibertine(0)/m/n/9 range of topics that provide useful evidence for open
--domain
+Overfull \hbox (4.89018pt too wide) in paragraph at lines 135--136
+[]$\OML/nxlmi/m/it/9 s\LMS/ntxsy/m/n/9 ¹\OML/nxlmi/m/it/9 h[]; h[]\LMS/ntxsy/m/
+n/9 º$ \TU/LinLibertine(0)/m/n/9 is the relevant score between relation and que
+stion,we
  []
-
-
-Underfull \vbox (badness 1038) has occurred while \output is active []
-
- [1.1
-
-]
-Overfull \hbox (2.28552pt too wide) in paragraph at lines 98--99
-\TU/LinLibertine(0)/m/n/9 the seed passage,take the neighbouring passage from W
-ikipedia
- []
-
-
-Overfull \hbox (3.75699pt too wide) in paragraph at lines 116--117
-[]\TU/LinLibertine(0)/m/n/9 corperate identified relations into passage node em
-bedding. Sup-
- []
-
-
-Overfull \hbox (2.5353pt too wide) in paragraph at lines 164--165
-\TU/LinLibertine(0)/m/n/9 each edge has a label and direction associated with i
-t, and jointly
- []
-
-File: f1.jpg Graphic file (type bmp)
-<f1.jpg>
-
-Class acmart Warning: A possible image without description on input line 171.
 
 (./main.bbl
-Underfull \hbox (badness 3428) in paragraph at lines 111--117
+Underfull \hbox (badness 2158) in paragraph at lines 160--166
 []\TU/LinLibertine(0)/m/n/7 Haitian Sun, Bhuwan Dhingra, Manzil Zaheer, Kathryn
  Mazaitis, Ruslan
  []
 
 )
 
-Class acmart Warning: Some images may lack descriptions.
-
-
-Class acmart Warning: CCS concepts are mandatory for papers over two pages.
-
-
 Package balance Warning: You have called \balance in second column
 (balance)                Columns might not be balanced.
 
 LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 210.
+(Font)              scaled to size 9.0pt on input line 207.
 Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;ma
 pping=tex-text;" at 9.0pt
  -> d:/Software/texlive/2020/texmf-dist/fonts/opentype/public/libertine/LinBiol
 inum_R.otf
 LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 210.
+(Font)              scaled to size 7.0pt on input line 207.
 Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;ma
 pping=tex-text;" at 7.0pt
  -> d:/Software/texlive/2020/texmf-dist/fonts/opentype/public/libertine/LinBiol
 inum_R.otf
-[2.2] [3.3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 210.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 210.
+[2.2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 207.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 207.
  (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 210.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 210.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 207.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 207.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5771529D28E76FDA57962FAEC510388D;1011.
+(rerunfilecheck)             Checksum: E5840DF104686F6875E9FBFC8F611706;1011.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1863,12 +1853,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 28924 strings out of 479418
- 550432 string characters out of 5884144
- 807277 words of memory out of 5000000
- 45882 multiletter control sequences out of 15000+600000
+ 28928 strings out of 479418
+ 550709 string characters out of 5884144
+ 813277 words of memory out of 5000000
+ 45889 multiletter control sequences out of 15000+600000
  558412 words of font info for 138 fonts, out of 8000000 for 9000
  1509 hyphenation exceptions out of 8191
- 69i,12n,111p,816b,499s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,14n,111p,816b,493s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (3 pages).
+Output written on main.pdf (2 pages).
