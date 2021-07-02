@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.11.23)  30 JUN 2021 23:35
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.11.23)  2 JUL 2021 11:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1573,13 +1573,13 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 48.
+(Font)              scaled to size 17.28pt on input line 45.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;m
 apping=tex-text;" at 17.28pt
  -> d:/Software/texlive/2020/texmf-dist/fonts/opentype/public/libertine/LinLibe
 rtine_R.otf
 LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 48.
+(Font)              scaled to size 17.28pt on input line 45.
 Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;ma
 pping=tex-text;" at 17.28pt
  -> d:/Software/texlive/2020/texmf-dist/fonts/opentype/public/libertine/LinBiol
@@ -1589,75 +1589,47 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/b/n' will be
-(Font)              scaled to size 17.28pt on input line 48.
+(Font)              scaled to size 17.28pt on input line 45.
 Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;m
 apping=tex-text;" at 17.28pt
  -> d:/Software/texlive/2020/texmf-dist/fonts/opentype/public/libertine/LinBiol
 inum_RB.otf
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 48.
+(Font)              scaled to size 12.0pt on input line 45.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;m
 apping=tex-text;" at 12.0pt
  -> d:/Software/texlive/2020/texmf-dist/fonts/opentype/public/libertine/LinLibe
 rtine_R.otf
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 48.
+(Font)              scaled to size 10.0pt on input line 45.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;m
 apping=tex-text;" at 10.0pt
  -> d:/Software/texlive/2020/texmf-dist/fonts/opentype/public/libertine/LinLibe
 rtine_R.otf
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `LinLibertine' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-Requested font "nxlmi" at 10.0pt
- -> d:/Software/texlive/2020/texmf-dist/fonts/tfm/public/newtx/nxlmi.tfm
-Requested font "ntxsy" at 10.0pt
- -> d:/Software/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntxsy.tfm
-Requested font "ntxexx" at 10.0pt
- -> d:/Software/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
-Requested font "msam10" at 10.0pt
- -> d:/Software/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam1
-0.tfm
-
-(d:/Software/texlive/2020/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-Requested font "msbm10" at 10.0pt
- -> d:/Software/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm1
-0.tfm
-
-(d:/Software/texlive/2020/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-Requested font "nxlmia" at 10.0pt
- -> d:/Software/texlive/2020/texmf-dist/fonts/tfm/public/newtx/nxlmia.tfm
-Requested font "ntxsym" at 10.0pt
- -> d:/Software/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
-Requested font "ntxsyc" at 10.0pt
- -> d:/Software/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
-Requested font "ntxexa" at 10.0pt
- -> d:/Software/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
-(Font)              scaled to size 7.0pt on input line 48.
+(Font)              scaled to size 7.0pt on input line 45.
 Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;
 mapping=tex-text;" at 7.0pt
  -> d:/Software/texlive/2020/texmf-dist/fonts/opentype/public/libertine/LinLibe
 rtine_RI.otf
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
-(Font)              scaled to size 9.0pt on input line 48.
+(Font)              scaled to size 9.0pt on input line 45.
 Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;
 mapping=tex-text;" at 9.0pt
  -> d:/Software/texlive/2020/texmf-dist/fonts/opentype/public/libertine/LinLibe
 rtine_RB.otf
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
-(Font)              scaled to size 10.95pt on input line 48.
+(Font)              scaled to size 10.95pt on input line 45.
 Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;
 mapping=tex-text;" at 10.95pt
  -> d:/Software/texlive/2020/texmf-dist/fonts/opentype/public/libertine/LinLibe
 rtine_RB.otf
 Requested font "cmr9" at 9.0pt
  -> d:/Software/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `LinLibertine' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 Requested font "nxlmi" at 9.0pt
  -> d:/Software/texlive/2020/texmf-dist/fonts/tfm/public/newtx/nxlmi.tfm
 Requested font "ntxsy" at 9.0pt
@@ -1667,9 +1639,17 @@ Requested font "ntxexx" at 9.0pt
 Requested font "msam10" at 9.0pt
  -> d:/Software/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam1
 0.tfm
+
+(d:/Software/texlive/2020/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
 Requested font "msbm10" at 9.0pt
  -> d:/Software/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm1
 0.tfm
+
+(d:/Software/texlive/2020/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
 Requested font "nxlmia" at 9.0pt
  -> d:/Software/texlive/2020/texmf-dist/fonts/tfm/public/newtx/nxlmia.tfm
 Requested font "ntxsym" at 9.0pt
@@ -1679,25 +1659,25 @@ Requested font "ntxsyc" at 9.0pt
 Requested font "ntxexa" at 9.0pt
  -> d:/Software/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 7.3pt on input line 48.
+(Font)              scaled to size 7.3pt on input line 45.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;m
 apping=tex-text;" at 7.3pt
  -> d:/Software/texlive/2020/texmf-dist/fonts/opentype/public/libertine/LinLibe
 rtine_R.otf
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 48.
+(Font)              scaled to size 8.0pt on input line 45.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;m
 apping=tex-text;" at 8.0pt
  -> d:/Software/texlive/2020/texmf-dist/fonts/opentype/public/libertine/LinLibe
 rtine_R.otf
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 48.
+(Font)              scaled to size 8.0pt on input line 45.
 Requested font "[LinLibertine_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;
 mapping=tex-text;" at 8.0pt
  -> d:/Software/texlive/2020/texmf-dist/fonts/opentype/public/libertine/LinLibe
 rtine_RB.otf
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 48.
+(Font)              scaled to size 8.0pt on input line 45.
 Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;
 mapping=tex-text;" at 8.0pt
  -> d:/Software/texlive/2020/texmf-dist/fonts/opentype/public/libertine/LinLibe
@@ -1747,108 +1727,112 @@ Requested font "ntxexa" at 8.0pt
 Requested font "ntxexa" at 6.2pt
  -> d:/Software/texlive/2020/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 
-Overfull \hbox (12.80653pt too wide) in paragraph at lines 55--57
+Overfull \hbox (12.80653pt too wide) in paragraph at lines 52--54
 []\TU/LinLibertine(0)/m/n/9 Large-scale factual knowledge bases such as WikiDat
 a[[]],Freebase
  []
 
 
-Overfull \hbox (5.28752pt too wide) in paragraph at lines 55--57
+Overfull \hbox (5.28752pt too wide) in paragraph at lines 52--54
 \TU/LinLibertine(0)/m/n/9 question answering. Unfortunately, curated konwledge 
 bases, which
  []
 
 
-Overfull \hbox (1.04329pt too wide) in paragraph at lines 58--60
+Overfull \hbox (1.04329pt too wide) in paragraph at lines 55--57
 \TU/LinLibertine(0)/m/n/9 laid the pipe-line, two-stage approaches, of QA for s
 uccessive work. 
  []
 
 
-Overfull \hbox (10.65901pt too wide) in paragraph at lines 74--79
+Overfull \hbox (1.41228pt too wide) in paragraph at lines 63--64
+\TU/LinLibertine(0)/m/n/9 Cognitive Graph[[]]retrieves evidence documents offli
+ne, and trains
+ []
+
+
+Overfull \hbox (10.65901pt too wide) in paragraph at lines 71--76
 \TU/LinLibertine(0)/m/n/9 ment between the two resources. Knowledge Base is a m
 ulti-relational
  []
 
 
-Overfull \hbox (1.74452pt too wide) in paragraph at lines 74--79
+Overfull \hbox (1.74452pt too wide) in paragraph at lines 71--76
 \TU/LinLibertine(0)/m/n/9 rected graph,constructed by hyperlinks and within-doc
 ument links,
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1.1
+[1.1
 
 ]
-Overfull \hbox (5.34552pt too wide) in paragraph at lines 82--85
+Overfull \hbox (5.34552pt too wide) in paragraph at lines 79--82
 []\TU/LinLibertine(0)/b/n/9 Subgraph \TU/LinLibertine(0)/m/n/9 Next,we run Topi
 c-sensitive pagerank[[]] around these
  []
 
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 96.
+(Font)              scaled to size 9.0pt on input line 93.
 Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;
 mapping=tex-text;" at 9.0pt
  -> d:/Software/texlive/2020/texmf-dist/fonts/opentype/public/libertine/LinLibe
 rtine_RI.otf
 
-Overfull \hbox (1.79579pt too wide) in paragraph at lines 109--113
+Overfull \hbox (1.79579pt too wide) in paragraph at lines 106--110
 []\TU/LinLibertine(0)/b/n/9 Node Update \TU/LinLibertine(0)/m/n/9 Assuming that
  $\LMS/ntxsy/m/n/9 ¹\OML/nxlmi/m/it/9 p[]; p[]\LMS/ntxsy/m/n/9 º 2 G[]$\TU/LinL
 ibertine(0)/m/n/9 , and the edge weight
  []
 
 
-Overfull \hbox (25.6853pt too wide) detected at line 133
+Overfull \hbox (25.6853pt too wide) detected at line 130
 [][]
  []
 
 
-Overfull \hbox (4.89018pt too wide) in paragraph at lines 135--136
+Overfull \hbox (4.89018pt too wide) in paragraph at lines 132--133
 []$\OML/nxlmi/m/it/9 s\LMS/ntxsy/m/n/9 ¹\OML/nxlmi/m/it/9 h[]; h[]\LMS/ntxsy/m/
 n/9 º$ \TU/LinLibertine(0)/m/n/9 is the relevant score between relation and que
 stion,we
  []
 
+File: f1.jpg Graphic file (type bmp)
+<f1.jpg>
+
+Class acmart Warning: A possible image without description on input line 197.
+
 (./main.bbl
-Underfull \hbox (badness 2158) in paragraph at lines 160--166
+Underfull \hbox (badness 2158) in paragraph at lines 159--165
 []\TU/LinLibertine(0)/m/n/7 Haitian Sun, Bhuwan Dhingra, Manzil Zaheer, Kathryn
  Mazaitis, Ruslan
  []
 
 LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 204.
+(Font)              scaled to size 9.0pt on input line 180.
 Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;ma
 pping=tex-text;" at 9.0pt
  -> d:/Software/texlive/2020/texmf-dist/fonts/opentype/public/libertine/LinBiol
 inum_R.otf
 LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 204.
+(Font)              scaled to size 7.0pt on input line 180.
 Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;ma
 pping=tex-text;" at 7.0pt
  -> d:/Software/texlive/2020/texmf-dist/fonts/opentype/public/libertine/LinBiol
 inum_R.otf
 [2.2])
 
+Class acmart Warning: Some images may lack descriptions.
+
+
 Class acmart Warning: CCS concepts are mandatory for papers over two pages.
 
-
-Overfull \vbox (13.5pt too high) has occurred while \output is active []
-
-
-Overfull \vbox (15.16599pt too high) has occurred while \output is active []
-
-
 [3.3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 207.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 207.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 210.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 210.
  (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 207.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 207.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 210.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 210.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E5840DF104686F6875E9FBFC8F611706;1011.
+(rerunfilecheck)             Checksum: 5771529D28E76FDA57962FAEC510388D;1011.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1859,12 +1843,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 28928 strings out of 479418
- 550709 string characters out of 5884144
+ 28919 strings out of 479418
+ 550392 string characters out of 5884144
  813277 words of memory out of 5000000
- 45889 multiletter control sequences out of 15000+600000
- 558412 words of font info for 138 fonts, out of 8000000 for 9000
+ 45877 multiletter control sequences out of 15000+600000
+ 554954 words of font info for 129 fonts, out of 8000000 for 9000
  1509 hyphenation exceptions out of 8191
- 69i,14n,111p,816b,571s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,14n,111p,816b,565s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on main.pdf (3 pages).
