@@ -96,36 +96,38 @@
 		And the passages in $\mathcal{G}_q$ are initialized as:
 		\begin{displaymath}
 			\begin{aligned}
-				h_{p_i}^{(0)} = BERT(w_1^{p_i},...,w_{|pi|}^{p_i})				
+				h_{p}^{(0)} = BERT(w_1^{p},...,w_{|p|}^{p})				
 			\end{aligned}
 		\end{displaymath}	
-		We denote  the embedding of  \emph{pos-th} word in the passage $p_{i}$ as $h^{(l)}_{pi}[pos]$.
+		We denote  the embedding of  \emph{pos-th} word in the passage $p$ as $h^{(l)}_{p}[pos]$.
 		
 	\end{enumerate}
 	
 	\textbf{Node Update}		
 	Assuming that $(p_a,p_b) \in \mathcal{G}_q$, and the edge weight is $pr_{a,b}$, we also perform an entity linking system\cite{ferragina2011fast} to identity the  entity in $p_a$ and $p_b$.Suppose that		
-	$p_a$ contains n entities ( $e_{a1},...,e_{an}$) ,		
-	$p_b$ contains m entities ( $e_{b1},...,e_{bm}$) .In each layer $l$,we update the information as follow:
+	$p_a$ contains n entities $E_{a}=( e_{a1},...,e_{an})$ ,		
+	$p_b$ contains m entities $E_{b}=( e_{b1},...,e_{bm})$ .In each layer $l$,we update the information as follow:
 	\begin{enumerate}[(1)]
 		\item Corperate entity relations into passage .\\	
 		We update passage representaion at token level.	
-		If the triple $(e_{ai},r,e_{bj}) \in \mathcal{K}$, and $e_{ai}$ is at the position $pos_a$ in $p_a$, $e_{bj}$ is at  $pos_b$  in $p_b$,		
-		let $L=(p_a,pos_a)$ be the set of all the entities appearing at position $pos_a$ in paragrah $p_a$,they are all linked to the entities at position $pos_b$ in paragrah $p_b$.We aggregate over the token hidden states coming in at
-		each position separately: 
+		If the triple $(e_{a},r,e_{b}) \in \mathcal{K},e_{a}\in E_{a},e_{b}\in E_{b} $, and $e_{a}$ is at the position $pos_a$ in $p_a$, $e_{b}$ is at  $pos_b$  in $p_b$,		
+		for every $e_{b}\in E_{b}$,let $L=(p_a,pos_a)$ be the set of all the entities appearing at position $pos_a$ in paragrah $p_a$,they are all linked to the entities at position $pos_b$ in paragrah $p_b$.We aggregate over the token hidden states coming in at each position $pos_b$ separately: 
 		
 		\begin{displaymath}
 			\begin{aligned}
-				h^{(l)}_{p_b}[pos_b] = FFN
+				&h^{(l)}_b = FFN
 				\left(					 
 				\begin{bmatrix}  
-					h^{(l-1)}_{p_b}[pos_b],\\ 		
-					\sum\limits_{(p_a,pos_a) \in L}
+					h^{(l-1)}_b,\\ 		
+					\sum\limits_{(p_b,pos_b) \in L}
 					pr_{a,b}*
 					s(h_r,h_q^{(l)})*
-					\phi(h^{(l-1)}_{p_a}[pos_a],h_r)
+					\phi(h^{(l-1)}_a,h_r)
 				\end{bmatrix} 
-				\right)								
+				\right)		\\	
+				&s.t.\\
+				&	h_b = h_{p_b}[pos_b]\\
+				&   h_a = h_{p_a}[pos_a]\\					
 			\end{aligned}
 		\end{displaymath}
 		
